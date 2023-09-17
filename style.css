@@ -1,0 +1,52 @@
+body{
+background-image:url('laura-adai-cRVk9LLVYuk-unsplash.jpg'); 
+background-repeat: no-repeat;
+}
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    background-color: transparent;
+}
+li a{
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: dashed;
+}
+/*change the link color on hover*/
+li a:hover {
+background-color: cornsilk;
+}
+*{
+    box-sizing: border-box;
+}
+.left{
+    float: left;
+}
+.main{
+    float: left;
+}
+.right{
+    float: left;
+}  
+a {
+   text-decoration: none;
+   color: black;
+   font-size: 1.5rem;
+    margin: 0%;
+    padding: 0;
+}
+/*change the link color on hover*/
+a:hover{
+    background-color: cornsilk;
+}
+.nav-area {
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    margin-top: 1000px;
+}
+h1{
+    font-size: 3rem;
+}
